@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" type="text/css" href="netflix.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">MyFlix</div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search...">
+        </div>
+        <div class="profile-icon">👤</div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Featured Video -->
+        <section id="featured-video">
+            <h2>Featured</h2>
+            <div id="featured-video-container"></div>
+        </section>
+
+        <!-- Categories -->
+        <section id="categories">
+            <h2>Categories</h2>
+            <div id="categories-container"></div>
+        </section>
+    </div>
+
+    <!-- Video Player -->
+    <div id="video-player">
+        <video id="player" controls width="640" height="360"></video>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="netflix.js"></script>
+
+    
+    
+</body>
+</html>
